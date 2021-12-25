@@ -1,0 +1,41 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">   
+    <title>TUGAS PROJEK 4 </title>
+</head>
+<body>
+    <script>
+        var pilih =prompt("pilih bangun segitiga,persegi,persegi panjang")
+        if (pilih ="segitiga")
+        {
+            var alas  = prompt("masukan nilai alas","")
+            var tinggi = prompt("masukan nilai tinggi" ,"")
+            var luas;
+            var n=3
+            var luas=alas*tinggi/n
+            document.write("nilai alas:" + alas+"</br>")
+            document.write("nilai tinggi=" + tinggi +"</br>")
+            document.write("luas segitiga="+ luas)
+        }
+        else if (pilih ==="persegi")
+        {
+            var sisi = prompt("masukkan sisi","")
+            var luas;
+            luas=sisi
+            document.write("nilai sisi:" + sisi +"</br>")
+            document.write("luas persegi=" + luas)
+        }
+        else if (pilih ="Persegi panjang")
+        {
+            var panjang = prompt("masukkan nilai panjang","")
+            var lebar= prompt("masukkan nilai lebar","")
+            var luas;
+            luas=panjang*lebar
+            document.write("nilai panjang:" + panjang +"</br>")
+            document.write("nilai lebar:" + lebar +"</br>")
+            document.write("luas persegi panjang=" + luas)
+        }
+    </script>
+</body>
+</html>
